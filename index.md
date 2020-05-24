@@ -1,7 +1,7 @@
 ---
 title: "Random sample of Berlin areas"
 author: "Oliver Becker"
-date: "5/20/2020"
+date: "5-20-2020"
 output: html_document
 ---
 
