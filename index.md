@@ -1,7 +1,7 @@
 ---
 title: "Random sample of Berlin areas"
 author: "Oliver Becker"
-date: "5-20-2020"
+date: "{{ page.date }}"
 output: html_document
 ---
 
