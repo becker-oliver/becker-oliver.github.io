@@ -7,7 +7,7 @@ output: html_document
 
 
 
-# Package osmdata and bounding boxes/polygons
+# Package osmdata2 and bounding boxes/polygons
 
 The R package **osmdata** provides a functions that delivers either the bounding box (rectangular) or the bounding polygon of an object in OpenStreetMaps.
 
