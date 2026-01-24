@@ -13,7 +13,7 @@
 }
 
 .profile-columns > .column {
-  padding-top: 0.01rem;
+  padding-top: 0.1rem;
   padding-left: 0rem;
   padding-right: 0rem;
 }
@@ -28,6 +28,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 html, body {
   font-size: 17.5px;   /* try 16 instead of 18 */
+}
+
+body {
+  background-color:  #fafafa; /* warm white outside */
+}
+
+main {
+  background-color: #fcfbf8; /* almost white*/
+  background-color: #fbf8f1;  /* light earth note*/
+  background-color: #f7f8f4; /* super light green*/
+  border-radius: 11px;
+  padding: 1.5rem;
+  box-shadow: 0 16px 55px rgba(0,0,0,0.11);
 }
 
 /* ---- Profile name and picture ---- */
@@ -174,16 +187,22 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
+h2 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
 h3 {
   font-size: 1.2rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 .pub-title {
 }
 
 .pub-description {
-  color: gray;
+  color: #666;
   margin-top: -0.7rem;
   margin-bottom: 0.4rem;
   font-size: 0.82rem;
