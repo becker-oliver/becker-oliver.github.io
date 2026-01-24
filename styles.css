@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
                Roboto, Helvetica, Arial, sans-serif !important;
 }
 html, body {
-  font-size: 17px;   /* try 16 instead of 18 */
+  font-size: 17.5px;   /* try 16 instead of 18 */
 }
 
 /* ---- Profile name and picture ---- */
@@ -131,7 +131,8 @@ html, body {
   justify-content: center;
   font-size: 1.8rem;
   line-height: 1;
-  color: #FF0000;
+  color: blue;
+  color: rgb(68,137,183);
 }
 
 .profile-links a:hover {
