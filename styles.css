@@ -261,6 +261,13 @@ h3 {
     background-color: #222222;
     color: #f2f2f2;
   }
+  
+  main {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    padding: 0.5rem !important;
+    box-shadow: none !important;
+  }
 
   /* Links */
   a {
