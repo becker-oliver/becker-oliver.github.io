@@ -265,6 +265,7 @@ h3 {
   main {
     background-color: transparent !important;
     border-radius: 0 !important;
+    padding: 0rem !important;
     box-shadow: none !important;
   }
 
