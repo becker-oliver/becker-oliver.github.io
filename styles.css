@@ -187,3 +187,52 @@ h3 {
   margin-bottom: 0.4rem;
   font-size: 0.82rem;
 }
+
+
+/* =========================
+   Mobile: force one-column
+   ========================= */
+@media (max-width: 768px) {
+
+  /* All columns stack */
+  .columns {
+    display: block !important;
+  }
+
+  .columns .column {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 2rem;
+  }
+
+  /* Center profile block */
+  .profile-col,
+  .bio-right {
+    max-width: 650px;
+    margin: 0 auto !important;
+  }
+
+  /* Smaller portrait */
+  .profile-pic {
+    width: 160px !important;
+    height: 160px !important;
+  }
+
+  /* Titles */
+  .profile-name {
+    font-size: 1.6rem !important;
+  }
+
+  .profile-title {
+    font-size: 1.05rem !important;
+  }
+
+  /* Publications tighter */
+  .pub-description {
+    font-size: 0.95rem;
+  }
+
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.25rem; }
+}
