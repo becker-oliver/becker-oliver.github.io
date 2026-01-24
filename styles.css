@@ -215,8 +215,8 @@ h3 {
 
   /* Smaller portrait */
   .profile-pic {
-    width: 170px !important;
-    height: 170px !important;
+    width: 185px !important;
+    height: 185px !important;
   }
 
   /* Titles */
@@ -238,17 +238,17 @@ h3 {
   
     /* --- Mobile dark theme --- */
   body {
-    background-color: #121212;
+    background-color: #222222;
     color: #f2f2f2;
   }
 
   /* Links */
   a {
-    color: #9bd18b;
+    color: #7aa7ff;
   }
 
   a:hover {
-    color: #b6e3a3;
+    color: #a4c2ff;
   }
 
   /* Sections */
