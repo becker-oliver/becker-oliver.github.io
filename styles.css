@@ -215,8 +215,8 @@ h3 {
 
   /* Smaller portrait */
   .profile-pic {
-    width: 160px !important;
-    height: 160px !important;
+    width: 170px !important;
+    height: 170px !important;
   }
 
   /* Titles */
@@ -235,4 +235,46 @@ h3 {
 
   h2 { font-size: 1.6rem; }
   h3 { font-size: 1.15rem; }
+  
+    /* --- Mobile dark theme --- */
+  body {
+    background-color: #121212;
+    color: #f2f2f2;
+  }
+
+  /* Links */
+  a {
+    color: #9bd18b;
+  }
+
+  a:hover {
+    color: #b6e3a3;
+  }
+
+  /* Sections */
+  .bio-right,
+  .profile-col {
+    background-color: transparent;
+  }
+
+  /* Headings */
+  h1, h2, h3 {
+    color: #ffffff;
+  }
+
+  /* Navbar if present */
+  .navbar {
+    background-color: #121212 !important;
+    border-bottom: 1px solid #333;
+  }
+
+  /* Publication cards */
+  .pub-title {
+    color: #ffffff;
+  }
+
+  .pub-description {
+    color: #cccccc;
+  }
+
 }
