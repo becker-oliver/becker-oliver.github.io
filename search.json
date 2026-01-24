@@ -9,8 +9,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "becker-oliver-website",
+    "title": "Oliver Becker",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Oliver Becker, PhD\n\n\nPostdoctoral Researcher\n\n\n  \n  \n  \n  \n\n\n\n\nI am an Environmental Economist with a particular interest in environmental valuation, discrete choice modeling, and behavioral economics in general.\nMy research uses econometric methods to provide a better understanding of human behavior and support evidence based policymaking. I currently work at the Berlin School of Economics and Law, where I conduct research on recreational land use and ecosystem degredation. In particular, I have focused on integrating high resolution spatial data into behavioral modeling to analyze environmental policy impacts and inform management decisions.\nFeel free to contact me at oliver@pksb.de.\n\n\n\n\n\n\nMy CV\nMy Google Scholar\n\n\n\n\n\n\nEnvironmental valuation\nDiscrete choice modeling\nApplied econometrics\nGIS and remote sensing\n\n\n\n\n\n\n\n\nApplying the contingent behavior method at the regional level: Evidence from forest recreation (with T. Börger & J. Meyerhoff), Land Economics (accepted), 2026.\n\n\nWe study recreational forest values using the contingent behavior (CB) method in a general population survey, together with experimentally designed CB scenarios and perception data on current site conditions. This enables modling recreation demand regionally and across numerous attributes, but requires adjusting prediction procedures. Using data from north eastern Germany, we develop approaches for site and region level predictions.\n\n\nSampling of alternatives in spatial decision contexts with logit and logit mixture models: Simulation and Application to Freshwater recreation in Germany (with T. Börger & J. Meyerhoff), Resource and Energy Economics, 84, 2025.\n\n\nWe study how large choice sets can be handled efficiently in destination choice contexts, where travel costs as the central attribute are typically highly skewed. Using Monte Carlo simulations and empirical data, we show that estimation quality generally declines as travel cost sensitivity increases, while weighted (strategic) sampling substantially outperforms uniform sampling."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Oliver Becker",
+    "section": "",
+    "text": "I am an Environmental Economist with a particular interest in environmental valuation, discrete choice modeling, and behavioral economics in general.\nMy research uses econometric methods to provide a better understanding of human behavior and support evidence based policymaking. I currently work at the Berlin School of Economics and Law, where I conduct research on recreational land use and ecosystem degredation. In particular, I have focused on integrating high resolution spatial data into behavioral modeling to analyze environmental policy impacts and inform management decisions.\nFeel free to contact me at oliver@pksb.de.\n\n\n\n\n\n\nMy CV\nMy Google Scholar\n\n\n\n\n\n\nEnvironmental valuation\nDiscrete choice modeling\nApplied econometrics\nGIS and remote sensing"
+  },
+  {
+    "objectID": "index.html#recent-publications",
+    "href": "index.html#recent-publications",
+    "title": "Oliver Becker",
+    "section": "",
+    "text": "Applying the contingent behavior method at the regional level: Evidence from forest recreation (with T. Börger & J. Meyerhoff), Land Economics (accepted), 2026.\n\n\nWe study recreational forest values using the contingent behavior (CB) method in a general population survey, together with experimentally designed CB scenarios and perception data on current site conditions. This enables modling recreation demand regionally and across numerous attributes, but requires adjusting prediction procedures. Using data from north eastern Germany, we develop approaches for site and region level predictions.\n\n\nSampling of alternatives in spatial decision contexts with logit and logit mixture models: Simulation and Application to Freshwater recreation in Germany (with T. Börger & J. Meyerhoff), Resource and Energy Economics, 84, 2025.\n\n\nWe study how large choice sets can be handled efficiently in destination choice contexts, where travel costs as the central attribute are typically highly skewed. Using Monte Carlo simulations and empirical data, we show that estimation quality generally declines as travel cost sensitivity increases, while weighted (strategic) sampling substantially outperforms uniform sampling."
   }
 ]

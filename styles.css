@@ -1,1 +1,188 @@
 /* css styles */
+.profile-pic {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Column space */
+.columns .column {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.profile-columns > .column {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+/* ---- Global font ---- */
+html, body, 
+.page-columns, .content, .quarto-title-block, .navbar,
+p, li, ul, ol, a, span, div,
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif !important;
+}
+html, body {
+  font-size: 17px;   /* try 16 instead of 18 */
+}
+
+/* ---- Profile name and picture ---- */
+.profile-col {
+  text-align: center;
+  /* background-color: #fbfcfe; */
+  padding: 2.5rem 1.5rem;
+  border-radius: 6px;
+  height: 98%;
+}
+
+.profile-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+.profile-title {
+  font-size: 1.1rem;
+  color: #777;
+  text-align: center;
+  margin-top: -0.7rem;
+}
+
+/* Center the whole navbar content (brand + links) like in the Lusi Xie example */
+.navbar .container,
+.navbar .container-fluid,
+.navbar .navbar-container {
+  max-width: 1100px;         /* adjust to taste */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Optional: make the brand a bit less "stuck" to the edge */
+.navbar-brand {
+  margin-right: 2rem;
+}
+
+
+.edu-item{
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin: 1rem 0 1.25rem 0;
+}
+
+
+
+/* If your theme uses extra padding, normalize it a bit */
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Align right column with top of image */
+.bio-right {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+
+/* Remove top margin from first heading in that column */
+.bio-right h2:first-child,
+.bio-right h3:first-child {
+  margin-top: 0 !important;
+}
+
+/* Sometimes Quarto wraps content */
+.bio-right > *:first-child {
+  margin-top: 0 !important;
+}
+
+/* --- Load Bootstrap Icons --- */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* --- Center the navbar menu items --- */
+.navbar .navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Keep brand from hogging the left spacing */
+.navbar .navbar-brand {
+  margin-right: 1.5rem;
+}
+
+/* --- Icons under your name --- */
+.profile-links {
+  margin-top: -0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1.2rem;
+}
+
+/* Make all icons behave the same */
+.profile-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  line-height: 1;
+  color: #6B6F63;
+}
+
+.profile-links a:hover {
+  transform: translateY(-2px);
+  opacity: 0.55;
+}
+
+/* ORCID image tuning */
+.orcid-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.edu-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.edu-item i {
+  font-size: 1.35rem;
+  margin-top: 0.1rem;
+  color: #444;
+}
+
+.edu-degree {
+  font-size: 1.05rem;
+}
+
+.edu-school {
+  color: #777;
+  font-size: 0.95rem;
+}
+
+/* Research interests list spacing */
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+  margin-bottom: 0.8rem;
+}
+
+.pub-title {
+}
+
+.pub-description {
+  color: gray;
+  margin-top: -0.7rem;
+  margin-bottom: 0.4rem;
+  font-size: 0.82rem;
+}
