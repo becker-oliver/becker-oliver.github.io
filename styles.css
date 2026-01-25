@@ -39,6 +39,8 @@ main {
   background-color: #fbf8f1;  /* light earth note*/
   background-color: #f7f8f4; /* super light green*/
   background-color: #f1f3e8; /* bit stronger green*/
+  background-color: #e9edd6; /* bit warmer greener*/
+  background-color: #ecefdc; /* bit warmer greener*/
   border-radius: 11px;
   padding: 1.5rem;
   box-shadow: 0 16px 55px rgba(0,0,0,0.31);
@@ -213,7 +215,43 @@ h3 {
 /* =========================
    Mobile: force one-column
    ========================= */
+/* =========================
+   Mobile: force one-column
+   ========================= */
 @media (max-width: 768px) {
+
+  /* --- Mobile dark theme --- */
+  html, body {
+    background-color: #222222;
+    color: #f2f2f2;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Kill Quarto layout padding (this is usually the culprit) */
+  #quarto-content,
+  .page-columns,
+  .page-columns .content,
+  .page-columns .sidebar,
+  .quarto-container,
+  .container,
+  .container-fluid,
+  .content-block {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  /* main area: remove the "card" look on mobile */
+  main,
+  main.content,
+  main#quarto-content {
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
 
   /* All columns stack */
   .columns {
@@ -232,6 +270,7 @@ h3 {
   .bio-right {
     max-width: 650px;
     margin: 0 auto !important;
+    background-color: transparent !important;
   }
 
   /* Smaller portrait */
@@ -249,58 +288,27 @@ h3 {
     font-size: 1.05rem !important;
   }
 
-  /* Publications tighter */
-  .pub-description {
-    font-size: 0.95rem;
+  /* Headings */
+  h1, h2, h3 {
+    color: #ffffff !important;
   }
 
   h2 { font-size: 1.6rem; }
   h3 { font-size: 1.15rem; }
-  
-    /* --- Mobile dark theme --- */
-  body {
-    background-color: #222222;
-    color: #f2f2f2;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
-  html {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
-  main {
-    background-color: transparent !important;
-    border-radius: 0 !important;
-    padding: 0rem !important;
-    box-shadow: none !important;
-  }
-  
-  /* Kill Quarto layout padding */
-  .page-columns,
-  .content,
-  .quarto-container,
-  .container,
-  .container-fluid {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
 
   /* Links */
   a {
-    color: #6CB2DE;
+    color: #6CB2DE !important;
   }
 
-  /* Sections */
-  .bio-right,
-  .profile-col {
-    background-color: transparent;
+  /* Publications */
+  .pub-title {
+    color: #ffffff !important;
   }
 
-  /* Headings */
-  h1, h2, h3 {
-    color: #ffffff;
+  .pub-description {
+    color: #cccccc !important;
+    font-size: 0.95rem;
   }
 
   /* Navbar if present */
@@ -308,14 +316,4 @@ h3 {
     background-color: #121212 !important;
     border-bottom: 1px solid #333;
   }
-
-  /* Publication cards */
-  .pub-title {
-    color: #ffffff;
-  }
-
-  .pub-description {
-    color: #cccccc;
-  }
-
 }
