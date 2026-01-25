@@ -38,9 +38,11 @@ main {
   background-color: #fcfbf8; /* almost white*/
   background-color: #fbf8f1;  /* light earth note*/
   background-color: #f7f8f4; /* super light green*/
+  background-color: #f1f3e8; /* bit stronger green*/
+  background-color: #e9edd6; /* bit warmer greener*/
   border-radius: 11px;
   padding: 1.5rem;
-  box-shadow: 0 16px 55px rgba(0,0,0,0.11);
+  box-shadow: 0 16px 55px rgba(0,0,0,0.31);
 }
 
 /* ---- Profile name and picture ---- */
@@ -260,6 +262,13 @@ h3 {
   body {
     background-color: #222222;
     color: #f2f2f2;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  html {
+    margin: 0 !important;
+    padding: 0 !important;
   }
   
   main {
@@ -267,6 +276,16 @@ h3 {
     border-radius: 0 !important;
     padding: 0rem !important;
     box-shadow: none !important;
+  }
+  
+  /* Kill Quarto layout padding */
+  .page-columns,
+  .content,
+  .quarto-container,
+  .container,
+  .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   /* Links */
