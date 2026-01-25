@@ -34,7 +34,15 @@ body {
   background-color:  #fafafa; /* warm white outside */
 }
 
-
+main {
+  background-color: #fcfbf8; /* almost white*/
+  background-color: #fbf8f1;  /* light earth note*/
+  background-color: #f7f8f4; /* super light green*/
+  background-color: #f1f3e8; /* bit stronger green*/
+  border-radius: 11px;
+  padding: 1.5rem;
+  box-shadow: 0 16px 55px rgba(0,0,0,0.31);
+}
 
 /* ---- Profile name and picture ---- */
 .profile-col {
@@ -257,44 +265,26 @@ h3 {
     padding: 0 !important;
   }
   
-  @media (max-width: 768px) {
-
-  /* hard reset the outer layout wrappers */
-  html, body {
+  html {
     margin: 0 !important;
     padding: 0 !important;
   }
-
-  /* Quarto's main page grid wrappers */
-  #quarto-content,
+  
+  main {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    padding: 0rem !important;
+    box-shadow: none !important;
+  }
+  
+  /* Kill Quarto layout padding */
   .page-columns,
-  .page-columns .content,
-  .page-columns .sidebar,
+  .content,
   .quarto-container,
   .container,
   .container-fluid {
-    margin: 0 !important;
     padding: 0 !important;
-    max-width: 100% !important;
-  }
-
-  /* main area */
-  main,
-  main.content,
-  main#quarto-content {
     margin: 0 !important;
-    padding: 0 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-  }
-
-  /* sometimes Quarto adds padding here */
-  .content-block {
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
   }
 
   /* Links */
